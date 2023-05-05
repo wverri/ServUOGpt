@@ -1,0 +1,220 @@
+
+***ERROR LOG [02/05/2023 12:08:06]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:08:06]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:14:04]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:14:04]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:31:46]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:31:46]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:35:27]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 12:35:27]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:11:51]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:11:51]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:13:19]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:13:19]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:15:12]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:15:12]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:19:14]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:19:14]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:22:27]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 14:22:27]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 16:15:12]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 16:15:12]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 16:21:57]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+
+
+***ERROR LOG [02/05/2023 16:21:57]***
+Método não-estático requer um destino.
+System.Reflection.TargetException: Método não-estático requer um destino.
+   em System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   em System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em VitaNex.VitaNexCore.TryCatch(Delegate action, Action`1 handler) na C:\MacacoUO\Scripts\VitaNex\VitaNex.cs:linha 636
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<accounts count="2">
+	<account>
+		<username>Tester</username>
+		<password>tester</password>
+		<accessLevel>Owner</accessLevel>
+		<created>2023-05-02T15:08:00.8724102Z</created>
+		<lastLogin>2023-05-04T17:56:11.6185524Z</lastLogin>
+		<totalGameTime>PT28M57.4876323S</totalGameTime>
+		<chars>
+			<char index="0">42</char>
+		</chars>
+		<totalCurrency>0</totalCurrency>
+		<sovereigns>0</sovereigns>
+	</account>
+	<account>
+		<username>wverri</username>
+		<password>tester</password>
+		<created>2023-05-04T14:39:29.5902178Z</created>
+		<lastLogin>2023-05-04T17:56:16.2855439Z</lastLogin>
+		<totalGameTime>PT14M26.1017138S</totalGameTime>
+		<chars>
+			<char index="0">44</char>
+		</chars>
+		<totalCurrency>0</totalCurrency>
+		<sovereigns>0</sovereigns>
+	</account>
+</accounts>

@@ -1,0 +1,16 @@
+C:\MacacoUO-uf\Server\obj\Release\Server.csproj.AssemblyReference.cache
+C:\MacacoUO-uf\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+C:\MacacoUO-uf\Server\obj\Release\Server.csproj.CopyComplete
+C:\MacacoUO-uf\Server.dll.config
+C:\MacacoUO-uf\Server\obj\Release\Server.dll
+C:\MacacoUO-uf\Server\obj\Release\Server.pdb
+C:\MacacoUO-uf\Server.dll
+C:\MacacoUO-uf\Server.pdb
+C:\MacacoUO\Server\obj\Release\Server.csproj.AssemblyReference.cache
+C:\MacacoUO\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+C:\MacacoUO\Server\obj\Release\Server.csproj.CopyComplete
+C:\MacacoUO\Server.dll.config
+C:\MacacoUO\Server\obj\Release\Server.dll
+C:\MacacoUO\Server\obj\Release\Server.pdb
+C:\MacacoUO\Server.dll
+C:\MacacoUO\Server.pdb

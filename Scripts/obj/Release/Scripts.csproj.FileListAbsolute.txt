@@ -1,0 +1,14 @@
+C:\MacacoUO-uf\Scripts\obj\Release\Scripts.csproj.AssemblyReference.cache
+C:\MacacoUO-uf\Scripts\obj\Release\Scripts.csproj.CoreCompileInputs.cache
+C:\MacacoUO-uf\Scripts\obj\Release\Scripts.csproj.CopyComplete
+C:\MacacoUO-uf\Scripts\obj\Release\Scripts.dll
+C:\MacacoUO-uf\Scripts\obj\Release\Scripts.pdb
+C:\MacacoUO-uf\Scripts.dll
+C:\MacacoUO-uf\Scripts.pdb
+C:\MacacoUO\Scripts\obj\Release\Scripts.csproj.AssemblyReference.cache
+C:\MacacoUO\Scripts\obj\Release\Scripts.csproj.CoreCompileInputs.cache
+C:\MacacoUO\Scripts\obj\Release\Scripts.dll
+C:\MacacoUO\Scripts\obj\Release\Scripts.pdb
+C:\MacacoUO\Scripts\obj\Release\Scripts.csproj.CopyComplete
+C:\MacacoUO\Scripts.dll
+C:\MacacoUO\Scripts.pdb

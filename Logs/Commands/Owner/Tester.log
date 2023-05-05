@@ -1,0 +1,8 @@
+02/05/2023 15:08:56: 127.0.0.1: Owner 0x2A "Tester" ('Tester') used command 'setallskills 100'
+02/05/2023 15:08:59: 127.0.0.1: Owner 0x2A "Tester" ('Tester') set property 'EverySkill.Base' of 0x2A "Tester" ('Tester') to '100'
+02/05/2023 15:09:09: 127.0.0.1: Owner 0x2A "Tester" ('Tester') used command 'set dex 100'
+02/05/2023 15:09:10: 127.0.0.1: Owner 0x2A "Tester" ('Tester') set property 'dex' of 0x2A "Tester" ('Tester') to '100'
+02/05/2023 15:09:38: 127.0.0.1: Owner 0x2A "Tester" ('Tester') used command 'add or'
+02/05/2023 15:09:45: 127.0.0.1: Owner 0x2A "Tester" ('Tester') building at (3481, 2586, 7) in Trammel: "StaffOrb"
+02/05/2023 15:09:45: 127.0.0.1: Serials: 0x400002BE; 
+02/05/2023 15:11:24: 127.0.0.1: Owner 0x2A "Tester" ('Tester') used command 'save '

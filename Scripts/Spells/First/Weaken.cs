@@ -1,0 +1,162 @@
+using System;
+using Server.Targeting;
+using System.Collections.Generic;
+
+namespace Server.Spells.First
+{
+    public class WeakenSpell : MagerySpell
+    {
+        private static readonly SpellInfo m_Info = new SpellInfo(
+            "Weaken", "Des Mani",
+            212,
+            9031,
+            Reagent.Garlic,
+            Reagent.Nightshade);
+
+        public static Dictionary<Mobile, Timer> m_Table = new Dictionary<Mobile, Timer>();
+
+        public static bool IsUnderEffects(Mobile m)
+        {
+            return m_Table.ContainsKey(m);
+        }
+
+        public static bool RemoveEffects(Mobile m, bool removeMod = true)
+        {
+            if (m_Table.ContainsKey(m))
+            {
+                Timer t = m_Table[m];
+
+                if (t != null && t.Running)
+                {
+                    t.Stop();
+                }
+
+                BuffInfo.RemoveBuff(m, BuffIcon.Weaken);
+
+                if(removeMod)
+                    m.RemoveStatMod("[Magic] Str Curse");
+
+                m_Table.Remove(m);
+                return true;
+            }
+            return false;
+        }
+
+        public WeakenSpell(Mobile caster, Item scroll)
+            : base(caster, scroll, m_Info)
+        {
+        }
+
+        public override SpellCircle Circle
+        {
+            get
+            {
+                return SpellCircle.First;
+            }
+        }
+        public override void OnCast()
+        {
+            Caster.Target = new InternalTarget(this);
+        }
+
+        public void Target(Mobile m)
+        {
+            if (!Caster.CanSee(m))
+            {
+                Caster.SendLocalizedMessage(500237); // Target can not be seen.
+            }
+            else if (CheckHSequence(m))
+            {
+                SpellHelper.Turn(Caster, m);
+                m.FixedParticles(0x3779, 10, 15, 5002, EffectLayer.Head);
+                m.PlaySound(0x1DF);
+
+
+                var wtf = m;
+                if (SpellHelper.CheckReflect((int)Circle, this.Caster, ref wtf))
+                {
+                    Timer.DelayCall(TimeSpan.FromSeconds(Spell.SECONDS_REFLECT), () =>
+                    {
+                        if (this.OriginalCaster == null)
+                        {
+                            this.OriginalCaster = Caster;
+                        }
+                        FinishSequence();
+                        var newSpell = new FeeblemindSpell(m as Mobile, null);
+                        newSpell.PassSequence = true;
+                        newSpell.OriginalCaster = this.OriginalCaster;
+                        newSpell.OriginalCaster.NextSpellTime = Core.TickCount + 2000;
+                        newSpell.Target(Caster);
+                    });
+                    return;
+                }
+
+
+                if (Mysticism.StoneFormSpell.CheckImmunity(m))
+                {
+                    Caster.SendLocalizedMessage(1080192); // Your target resists your ability reduction magic.
+                    return;
+                }
+
+                int oldOffset = SpellHelper.GetCurseOffset(m, StatType.Str);
+                int newOffset = SpellHelper.GetOffset(Caster, m, StatType.Str, true, false);
+
+                if (-newOffset > oldOffset || newOffset == 0)
+                {
+                    DoHurtFizzle();
+                }
+                else
+                {
+                    if (m.Spell != null)
+                        m.Spell.OnCasterHurt();
+
+                    m.Paralyzed = false;
+
+                    HarmfulSpell(m);
+
+                    if (-newOffset < oldOffset)
+                    {
+                        SpellHelper.AddStatCurse(this.Caster, m, StatType.Str, false, newOffset);
+
+                        int percentage = (int)(SpellHelper.GetOffsetScalar(this.Caster, m, true) * 100);
+                        TimeSpan length = SpellHelper.GetDuration(this.Caster, m);
+                        BuffInfo.AddBuff(m, new BuffInfo(BuffIcon.Weaken, 1075837, length, m, percentage.ToString()));
+
+                        if (m_Table.ContainsKey(m))
+                            m_Table[m].Stop();
+
+                        m_Table[m] = Timer.DelayCall(length, () =>
+                        {
+                            RemoveEffects(m);
+                        });
+                    }
+                }
+            }
+
+            FinishSequence();
+        }
+
+        public class InternalTarget : Target
+        {
+            private readonly WeakenSpell m_Owner;
+            public InternalTarget(WeakenSpell owner)
+                : base(Core.ML ? 10 : 12, false, TargetFlags.Harmful)
+            {
+                m_Owner = owner;
+            }
+
+            protected override void OnTarget(Mobile from, object o)
+            {
+                if (o is Mobile)
+                {
+                    m_Owner.Target((Mobile)o);
+                }
+            }
+
+            protected override void OnTargetFinish(Mobile from)
+            {
+                m_Owner.FinishSequence();
+            }
+        }
+    }
+}

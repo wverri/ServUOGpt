@@ -1,0 +1,92 @@
+using System;
+
+namespace Server.Items
+{
+    [Flipable(0x2684, 0x2683)]
+    public class HoodedShroudOfShadows : BaseOuterTorso
+	{
+        [Constructable]
+        public HoodedShroudOfShadows()
+            : this(0x455)
+        {
+        }
+
+        [Constructable]
+        public HoodedShroudOfShadows(int hue)
+            : base(0x2684, hue)
+        {
+            Name = "Manto dos Mortos";
+            //LootType = LootType.Blessed;
+            Weight = 3.0;
+        }
+
+        public HoodedShroudOfShadows(Serial serial)
+            : base(serial)
+        {
+        }
+
+        public override bool Dye(Mobile from, DyeTub sender)
+        {
+            from.SendLocalizedMessage(sender.FailMessage);
+            return false;
+        }
+
+        public override void Serialize(GenericWriter writer)
+        {
+            base.Serialize(writer);
+
+            writer.Write((int)0); // version
+        }
+
+        public override void Deserialize(GenericReader reader)
+        {
+            base.Deserialize(reader);
+
+            int version = reader.ReadInt();
+        }
+    }
+
+    [Flipable(0x2684, 0x2683)]
+    public class HoodedShroudOfShadowsNoob : BaseOuterTorso
+    {
+        [Constructable]
+        public HoodedShroudOfShadowsNoob()
+            : this(0x455)
+        {
+            LootType = LootType.Blessed;
+        }
+
+        [Constructable]
+        public HoodedShroudOfShadowsNoob(int hue)
+            : base(0x2684, hue)
+        {
+            LootType = LootType.Blessed;
+            Weight = 3.0;
+        }
+
+        public HoodedShroudOfShadowsNoob(Serial serial)
+            : base(serial)
+        {
+        }
+
+        public override bool Dye(Mobile from, DyeTub sender)
+        {
+            from.SendLocalizedMessage(sender.FailMessage);
+            return false;
+        }
+
+        public override void Serialize(GenericWriter writer)
+        {
+            base.Serialize(writer);
+
+            writer.Write((int)0); // version
+        }
+
+        public override void Deserialize(GenericReader reader)
+        {
+            base.Deserialize(reader);
+
+            int version = reader.ReadInt();
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<accounts count="1">
+	<account>
+		<username>Tester</username>
+		<password>tester</password>
+		<accessLevel>Owner</accessLevel>
+		<created>2023-05-02T15:08:00.8724102Z</created>
+		<lastLogin>2023-05-02T17:15:20.955399Z</lastLogin>
+		<totalGameTime>PT9M9.7598645S</totalGameTime>
+		<chars>
+			<char index="0">42</char>
+		</chars>
+		<totalCurrency>0</totalCurrency>
+		<sovereigns>0</sovereigns>
+	</account>
+</accounts>

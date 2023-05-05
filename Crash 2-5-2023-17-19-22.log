@@ -1,0 +1,29 @@
+Server Crash Report
+===================
+
+ServUO Version 1.0, Build 0.0
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 02/05/2023 17:19:22
+Mobiles: 44
+Items: 533
+Exception:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Server.Misc.NotorietyHandlers.Mobile_AllowHarmful(Mobile attacker, IDamageable damageable) na C:\MacacoUO\Scripts\Misc\Notoriety.cs:linha 247
+   em Server.Dueling.DuelController.PlayerMobile_AllowHarmful(Mobile from, IDamageable alvo) na C:\MacacoUO\Scripts\Fronteira\Duelos\Components\DuelController.cs:linha 377
+   em VitaNex.NotoUtility.AllowHarmful(Mobile a, Mobile b) na C:\MacacoUO\Scripts\VitaNex\Services\Notoriety\Notoriety.cs:linha 202
+   em VitaNex.NotoUtility.AllowHarmful(Mobile a, IDamageable b) na C:\MacacoUO\Scripts\VitaNex\Services\Notoriety\Notoriety.cs:linha 166
+   em Server.Region.AllowHarmful(Mobile from, IDamageable target) na C:\MacacoUO\Server\Region.cs:linha 911
+   em Server.Mobile.CanBeHarmful(IDamageable target, Boolean message, Boolean ignoreOurBlessedness) na C:\MacacoUO\Server\Mobile.cs:linha 8742
+   em Server.Mobiles.PlayerMobile.CanBeHarmful(IDamageable damageable, Boolean message, Boolean ignoreOurBlessedness) na C:\MacacoUO\Scripts\Mobiles\PlayerMobile.cs:linha 2435
+   em Server.Mobile.CanBeHarmful(IDamageable target, Boolean message) na C:\MacacoUO\Server\Mobile.cs:linha 8707
+   em Server.Mobile.set_Combatant(IDamageable value) na C:\MacacoUO\Server\Mobile.cs:linha 2722
+   em Server.Mobile.Attack(IDamageable e) na C:\MacacoUO\Server\Mobile.cs:linha 2683
+   em Server.Network.PacketHandlers.AttackReq(NetState state, PacketReader pvSrc) na C:\MacacoUO\Server\Network\PacketHandlers.cs:linha 631
+   em Server.Network.MessagePump.HandleReceive(NetState ns) na C:\MacacoUO\Server\Network\MessagePump.cs:linha 209
+   em Server.Network.MessagePump.Slice() na C:\MacacoUO\Server\Network\MessagePump.cs:linha 136
+   em Server.Core.MainCore(String[] args) na C:\MacacoUO\Server\Main.cs:linha 665
+
+Clients:
+- Count: 1
++ 127.0.0.1: (account = Tester) (mobile = 0x2A 'Tester')
